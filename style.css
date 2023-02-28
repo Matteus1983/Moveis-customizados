@@ -1,0 +1,59 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Fontes utilizadas */
+    text-align: center; /* Centralizando tudo no centro da página */
+    margin: 0; /* Para zerar o margin do body/root */
+}
+
+#hero {
+    width: 592px;
+    margin: 0 auto 72px; /* Para dar margem a caixa, já que o text align perdeu a força devido o wigth, margin 0 em cima, auto nas laterais e 72px em baixo. */
+}
+
+#hero img {
+    margin-bottom: 72px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 49px; /* Tamanho da fonte */
+    line-height: 56px; /* Altura da linha*/
+    font-weight: normal;
+    margin-bottom: 32px; /* margin em baixo */
+}
+
+h1 span {   /* Buscando a tag span dentro do h1 */
+    font-weight: bold; /* tipo da fonte */
+}
+
+span, a { /* Acrescentando duas tag de lugares diferente */
+    color: #FF9900;   
+}
+ 
+p { 
+    font-size: 14px; /* Tamanho da fonte */
+    line-height: 28px; /* Altura da linha */
+    color: #7D7987;
+}
+#footer {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 33px;
+
+}
+
+#footer a + a { /* Vai pegar a letra A que antecede a letra A */
+    margin-left: 28px; /* vai dar margem ao lado esquerdo da A selecionado */
+}
+
+.line {
+    width: 568px;
+    height: 0px;
+    border: 1px solid #ECEFF2;
+    margin: 0 auto 8px;
+}
+
+#balls {
+    position: fixed; /* Fixo na tela */
+    bottom: 0px;
+    right: 0px;
+}
